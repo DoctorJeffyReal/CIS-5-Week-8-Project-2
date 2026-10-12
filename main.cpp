@@ -4,7 +4,7 @@
 
 const int scoreAt0 = 72; // change this number
 
-// Project 2 — Your Name
+// Project 2 — Jesus
 // CIS 5 Week 08
 // Do not edit the boilerplate. It randomly generates 30 elements into the array.
 // One main only. No vector. No extra functions. No files.
