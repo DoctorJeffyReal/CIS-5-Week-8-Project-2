@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 
-const int scoreAt0 = 70; // change this number
+const int scoreAt0 = 70; 
 
 // Project 2 — Jesus
 // CIS 5 Week 08
@@ -12,7 +12,7 @@ const int scoreAt0 = 70; // change this number
 int main() {
   const int N = 30;
   int scores[N];
-  const int scoreAt10 = 90; // change this number
+  const int scoreAt10 = 90; 
 
   // Do not edit this boilerplate. It randomly generates 30 elements into the array.
   srand(static_cast<unsigned>(time(nullptr)));
@@ -24,7 +24,7 @@ int main() {
   }
 
   scores[0] = scoreAt0;
-  const int scoreAt27 = 30; // change this number
+  const int scoreAt27 = 30; 
   scores[10] = scoreAt10;
   scores[20] = scoreAt20;
   scores[27] = scoreAt27;
