@@ -16,7 +16,7 @@ int main() {
 
   srand(static_cast<unsigned>(time(nullptr)));
 
-  const int scoreAt20 = 50; // change this number
+  const int scoreAt20 = 50; 
 
   for (int i = 0; i < N; ++i) {
     scores[i] = rand() % 100;
