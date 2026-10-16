@@ -14,7 +14,6 @@ int main() {
   int scores[N];
   const int scoreAt10 = 90; 
 
-  // Do not edit this boilerplate. It randomly generates 30 elements into the array.
   srand(static_cast<unsigned>(time(nullptr)));
 
   const int scoreAt20 = 50; // change this number
@@ -36,7 +35,6 @@ int main() {
   // TODO: one for loop. Count A, B, C, D, and failing.
   // 90 and up is A. 80 to 89 is B. 70 to 79 is C. 60 to 69 is D.
   // Below 60 is failing. A score of 60 is a D.
-  // Print A:, B:, C:, D:, and F:. The five totals add up to 30.
   int a = 0, b = 0, c = 0, d = 0, f = 0;
   
   for (int i = 0; i < N; ++i) {
@@ -60,9 +58,9 @@ int main() {
   std::cout << "D: " << d << '\n';
   std::cout << "F: " << f << '\n';
 
-  // TODO: one while loop. If scores[i] is under 60, print:
+  // TODO: one while loop. If scores[i] is under 60,
   // Student at index i needs to come to office hours.
-  // Put ++i in the loop or it never ends 
+  
     int i = 0;
     while (i < N) {
 if (scores[i] < 60) {
